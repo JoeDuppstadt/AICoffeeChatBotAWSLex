@@ -1,0 +1,1 @@
+This is my implementation of my AWS Lex AI chat bot. I am following the coffee shop theme again in this project. The application may not run since i am using AWS and they dont allow their keys to be public 
