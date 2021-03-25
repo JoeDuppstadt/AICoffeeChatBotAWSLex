@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" style="-fx-border-radius: 0 0 18 18; -scen: ;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Pane layoutY="530.0" prefHeight="32.0" prefWidth="400.0" style="-fx-background-color: #439CEF; -fx-border-color: WHITE; -fx-border-width: 2px 2px 2px 2px;" />
+      <Pane layoutX="336.0" layoutY="563.0" prefHeight="38.0" prefWidth="64.0" style="-fx-background-color: #439CEF;">
+         <children>
+            <ImageView fx:id="sendButton" fitHeight="38.0" fitWidth="83.0" layoutX="13.0" onMouseClicked="#sendButtonClicked" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pngwing.com.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane prefHeight="108.0" prefWidth="400.0" style="-fx-background-color: #1D63DC; -fx-border-color: WHITE; -fx-border-width: 2px 2px 2px 2px;">
+         <children>
+            <ImageView fitHeight="108.0" fitWidth="121.0" layoutX="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@8cd29238-9cfd-42c6-b1ad-f116cac5c21c_200x200.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <TextArea fx:id="chatBoxTextField" layoutY="108.0" prefHeight="422.0" prefWidth="400.0" />
+      <TextArea fx:id="chatBoxTextBox" layoutX="-1.0" layoutY="562.0" prefHeight="38.0" prefWidth="337.0" />
+   </children>
+</Pane>
