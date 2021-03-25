@@ -25,11 +25,11 @@ public class Controller {
 
     @FXML private TextArea chatBoxTextBox;
 
-    private String botId = "9DFRNPZAV1";
-    private String botAliasId = "TSTALIASID";
-    private String localeId = "en_US";
-    private String accessKey = "AKIAT6GUK3MJLNYJU5EF"; // needs changed for each user
-    private String secretKey = "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"; // needs changed
+    private String botId = "";
+    private String botAliasId = "";
+    private String localeId = "";
+    private String accessKey = ""; 
+    private String secretKey = ""; 
     private String sessionId = UUID.randomUUID().toString();
     private Region region = Region.US_EAST_1;
     private String messageHistory = "";
