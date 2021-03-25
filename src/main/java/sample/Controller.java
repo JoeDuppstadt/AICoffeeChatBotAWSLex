@@ -25,7 +25,7 @@ public class Controller {
 
     @FXML private TextArea chatBoxTextBox;
 
-    private String botId = "";
+    private String botId = "";   //AWS made me remove these ID's for security reasons you can still open the bot but it may not run. Look at the testing file for more runnable details
     private String botAliasId = "";
     private String localeId = "";
     private String accessKey = ""; 
